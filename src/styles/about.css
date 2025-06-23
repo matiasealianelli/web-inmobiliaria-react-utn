@@ -1,0 +1,23 @@
+.about{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.conteiner-text-about{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.title-section-about{
+    padding-bottom: 3.5rem;
+}
+.text{
+    line-height: 1.8rem;
+}
+
+@media (max-width:768px){
+
+}
+@media (min-width:769px) and (max-width:1024px){
+
+}

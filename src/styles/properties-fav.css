@@ -1,0 +1,70 @@
+.cards{
+    width: 80%;
+}
+.text-section-cards{
+    width: 70%;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.conteiner-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 2rem;
+    row-gap: 3rem;
+}
+.precio-propiedad{
+    font-size: 0.8rem;
+    display: flex;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    padding: 0.3rem 0.8rem;
+    margin: 0.2rem;
+    background-color: #222;
+    color: #cdcdcd;
+    border-radius: 5px;
+}
+.conteiner-data-destacadas{
+    width: 100%;
+    height: min-content;
+    padding: 0.40rem 0;
+    background-color: rgba(0, 0, 0, 0.488);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    position: absolute;
+    z-index: 2;
+    bottom: 22%;
+    transition: all 0.1s ease;
+}
+.condicion-propiedad{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: min-content;
+}
+.sale-rent-prop{
+    margin: 0;
+    padding-top: 0.5rem;
+}
+@media (max-width:768px){
+    .cards{
+        width: 85%;
+    }
+    .text-section-cards{
+        width: 100%;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .cards{
+        width: 85%;
+    }
+    .text-section-cards{
+        width: 100%;
+    }
+}
