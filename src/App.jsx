@@ -10,6 +10,9 @@ function App() {
   return (
     <>
       < Header />
+          <div class="background-hero">
+        <img class="background-hero" src="./assets/img/backgroundHero.jpg" alt="" />
+    </div>
       <main className='conteiner-app'>
         < Hero />
         < PropertiesFav />
