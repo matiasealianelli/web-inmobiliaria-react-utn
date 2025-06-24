@@ -1,0 +1,13 @@
+.conteiner-logo-header {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin: 0;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .conteiner-logo-header {
+    margin-right: 1rem;
+  }
+}
