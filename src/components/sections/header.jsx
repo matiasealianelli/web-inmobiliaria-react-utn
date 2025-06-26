@@ -1,5 +1,7 @@
 import "../../styles/header.css";
 import Logo from "../ui/logo/logo.jsx";
+import NavBar from "../ui/navBar/navBar.jsx";
+
 export default function Header() {
   return (
     <>
@@ -26,20 +28,7 @@ export default function Header() {
           viewBox="0 0 16 16">
           <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
         </svg>
-        <nav>
-          <a href="#" className="link-header">
-            Propiedades destacadas
-          </a>
-          <a href="#" className="link-header">
-            Sobre nosotros
-          </a>
-          <a href="#" className="link-header">
-            Propiedades
-          </a>
-          <a href="#" className="link-header">
-            Contacto
-          </a>
-        </nav>
+        <NavBar />
       </header>
     </>
   );
