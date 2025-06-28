@@ -1,0 +1,7 @@
+.link-header {
+  color: #fff;
+}
+.link-header:hover {
+  color: #ababab;
+  transition: all 0.3s ease;
+}

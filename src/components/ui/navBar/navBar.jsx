@@ -1,13 +1,7 @@
 import "./navBar.css";
+import LinkNav from "../linksNavBar/linkNavBar";
 
 export default function NavBar({className}) {
-  function LinkNav({ enlace, hrefLink }) {
-    return (
-      <a href={hrefLink} className="link-header">
-        {enlace}
-      </a>
-    );
-  }
   return (
     <nav className={className}>
       <LinkNav hrefLink="#" enlace="Propiedades destacadas" />

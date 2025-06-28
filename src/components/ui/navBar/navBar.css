@@ -2,13 +2,6 @@
   display: flex;
   gap: 3.5rem;
 }
-.link-header {
-  color: #fff;
-}
-.link-header:hover {
-  color: #ababab;
-  transition: all 0.3s ease;
-}
 @media (max-width: 768px){
   .nav-bar{
     display: none;
