@@ -6,13 +6,12 @@ import About from './components/sections/about'
 import Properties from './components/sections/properties'
 import Contact from './components/sections/contact'
 import Footer from './components/sections/footer'
+import BackgroundHero from './components/ui/backgrondHero/backgroundHero'
 function App() {
   return (
     <>
       < Header />
-          <div class="background-hero">
-        <img class="background-hero" src="./assets/img/backgroundHero.jpg" alt="" />
-    </div>
+      < BackgroundHero />
       <main className='conteiner-app'>
         < Hero />
         < PropertiesFav />
