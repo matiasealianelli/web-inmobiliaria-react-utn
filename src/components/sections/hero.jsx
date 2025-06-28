@@ -1,4 +1,5 @@
 import "../../styles/hero.css";
+import BtnContactCTA from "../ui/btnContactCTA/btnContactCTA";
 export default function hero() {
   return (
     <>
@@ -13,11 +14,7 @@ export default function hero() {
             personalizado. Contanos qué estás buscando y comenzá hoy mismo.
           </p>
           <div class="conteiner-btns-cta">
-            <a
-              class="btn-link-contact"
-              href="https://matiasealianelli.github.io/landing-inmobiliaria/#contact">
-              <button class="btn-cta-hero">Contactanos</button>
-            </a>
+            <BtnContactCTA />
           </div>
         </div>
         <div class="conteiner-redes-hero">
