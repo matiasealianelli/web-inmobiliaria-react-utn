@@ -1,6 +1,6 @@
 import "./navBar.css";
 
-export default function navBar() {
+export default function NavBar({className}) {
   function LinkNav({ enlace, hrefLink }) {
     return (
       <a href={hrefLink} className="link-header">
@@ -9,7 +9,7 @@ export default function navBar() {
     );
   }
   return (
-    <nav>
+    <nav className={className}>
       <LinkNav hrefLink="#" enlace="Propiedades destacadas" />
       <LinkNav hrefLink="#" enlace="Sobre nosotros" />
       <LinkNav hrefLink="#" enlace="Propiedades" />

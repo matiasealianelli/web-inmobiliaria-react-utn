@@ -7,27 +7,16 @@ header {
   position: fixed;
   z-index: 100000;
 }
-.icon-menu,
-.icon-close {
-  display: none;
-  color: #fff;
-}
 @media (max-width: 768px) {
   header {
     justify-content: center;
     padding: 1rem 0;
   }
-  .icon-menu {
+  .visible{
     display: flex;
-    position: absolute;
-    right: 1rem;
   }
-  .icon-close {
-    width: 1.5rem;
-    height: 1.5rem;
+  .hidden{
     display: none;
-    position: absolute;
-    right: 1.1rem;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
