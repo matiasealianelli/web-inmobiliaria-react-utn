@@ -7,7 +7,20 @@ import NavBar from "../ui/navBar/navBar.jsx";
 
 export default function Header() {
   const [menuActivo, setMenuActivo] = useState(false);
-
+  
+  window.addEventListener("scroll", () => {
+  let valueInitHeader = 0;
+  let heightScroll = document.documentElement.scrollTop;
+  if (heightScroll === valueInitHeader) {
+    document.querySelector("header").style.backgroundColor="transparent"
+  } else if (heightScroll > valueInitHeader) {
+    document.querySelector("header").style.backgroundColor = "#223d74"
+    document.querySelector("header").style.transition = "all 0.3s ease";
+  }
+  else if (heightScroll < valueInitHeader) {
+    document.querySelector("header").style.backgroundColor = "transparent"
+  }
+})
   return (
     <>
       <header className="header">
