@@ -1,0 +1,43 @@
+.conteiner-redes-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  position: relative;
+}
+.icon-red {
+  color: #bbb;
+  font-size: 1.2rem;
+  height: min-content;
+  width: min-content;
+}
+.icon-wpp:hover {
+  color: #3ce45b;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.icon-fb:hover {
+  color: #0866ff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.icon-ig:hover {
+  color: #ff0195;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+@media (min-width: 280px) and (max-width: 500px) {
+  .conteiner-redes-hero {
+    position: relative;
+    flex-direction: row;
+    align-self: center;
+    right: auto;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  .conteiner-redes-hero {
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    right: auto;
+  }
+}

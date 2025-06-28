@@ -1,5 +1,6 @@
 import "../../styles/hero.css";
 import BtnContactCTA from "../ui/btnContactCTA/btnContactCTA";
+import RedesHero from "../ui/redesHero/redesHero";
 export default function hero() {
   return (
     <>
@@ -17,17 +18,7 @@ export default function hero() {
             <BtnContactCTA />
           </div>
         </div>
-        <div class="conteiner-redes-hero">
-          <a target="_blank" href="https://www.whatsapp.com/">
-            <i class="bi bi-whatsapp icon-wpp icon-red"></i>
-          </a>
-          <a target="_blank" href="https://www.instagram.com/">
-            <i class="bi bi-instagram icon-ig icon-red"></i>
-          </a>
-          <a target="_blank" href="https://www.facebook.com/">
-            <i class="bi bi-facebook icon-fb icon-red"></i>
-          </a>
-        </div>
+        <RedesHero />
       </section>
     </>
   );
