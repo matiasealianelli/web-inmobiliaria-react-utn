@@ -4,9 +4,9 @@ export default function Properties() {
     <>
         <section id="gallery properties" className="gallery properties">
             <h2 className="title-gallery-section">Nuestras Propiedades</h2>
-            <div className="conteiner-gallery">
-                <div title="Ver mas información" className="conteiner-image">
-                    <img loading="lazy" className="image-gallery" src="./assets/img/backgroundHero.jpg"
+            <div className="conteiner-all-props">
+                <div title="Ver mas información" className="card-prop">
+                    <img loading="lazy" className="image-card-prop" src="./assets/img/backgroundHero.jpg"
                         alt="imagen del frente de una casa en venta" />
                     <div className="conteiner-icons-card">
                         <div className="col1-icons-img">
@@ -22,8 +22,8 @@ export default function Properties() {
                         <i className="bi bi-geo-alt"></i>Avenida 123, En algun lugar
                     </p>
                 </div>
-                <div title="Ver mas información" className="conteiner-image">
-                    <img loading="lazy" className="image-gallery" src="./assets/img/imagen1.jpg"
+                <div title="Ver mas información" className="card-prop">
+                    <img loading="lazy" className="image-card-prop" src="./assets/img/imagen1.jpg"
                         alt="imagen del frente de una casa en venta" />
                     <div className="conteiner-icons-card">
                         <div className="col1-icons-img">
@@ -39,8 +39,8 @@ export default function Properties() {
                         <i className="bi bi-geo-alt"></i>Avenida 123, En algun lugar
                     </p>
                 </div>
-                <div title="Ver mas información" className="conteiner-image">
-                    <img loading="lazy" className="image-gallery" src="./assets/img/imagen2.jpg"
+                <div title="Ver mas información" className="card-prop">
+                    <img loading="lazy" className="image-card-prop" src="./assets/img/imagen2.jpg"
                         alt="imagen del frente de una casa en venta" />
                     <div className="conteiner-icons-card">
                         <div className="col1-icons-img">
@@ -56,8 +56,8 @@ export default function Properties() {
                         <i className="bi bi-geo-alt"></i>Avenida 123, En algun lugar
                     </p>
                 </div>
-                <div title="Ver mas información" className="conteiner-image">
-                    <img loading="lazy" className="image-gallery" src="./assets/img/imagen3.jpg"
+                <div title="Ver mas información" className="card-prop">
+                    <img loading="lazy" className="image-card-prop" src="./assets/img/imagen3.jpg"
                         alt="imagen del frente de una casa en venta" />
                     <div className="conteiner-icons-card">
                         <div className="col1-icons-img">
@@ -73,8 +73,8 @@ export default function Properties() {
                         <i className="bi bi-geo-alt"></i>Avenida 123, En algun lugar
                     </p>
                 </div>
-                <div title="Ver mas información" className="conteiner-image">
-                    <img loading="lazy" className="image-gallery" src="./assets/img/imagen5.jpg"
+                <div title="Ver mas información" className="card-prop">
+                    <img loading="lazy" className="image-card-prop" src="./assets/img/imagen5.jpg"
                         alt="imagen del frente de una casa en venta" />
                     <div className="conteiner-icons-card">
                         <div className="col1-icons-img">
@@ -90,8 +90,8 @@ export default function Properties() {
                         <i className="bi bi-geo-alt"></i>Avenida 123, En algun lugar
                     </p>
                 </div>
-                <div title="Ver mas información" className="conteiner-image">
-                    <img loading="lazy" className="image-gallery" src="./assets/img/imagen7.jpg"
+                <div title="Ver mas información" className="card-prop">
+                    <img loading="lazy" className="image-card-prop" src="./assets/img/imagen7.jpg"
                         alt="imagen del frente de una casa en venta" />
                     <div className="conteiner-icons-card">
                         <div className="col1-icons-img">
@@ -107,8 +107,8 @@ export default function Properties() {
                         <i className="bi bi-geo-alt"></i>Avenida 123, En algun lugar
                     </p>
                 </div>
-                <div title="Ver mas información" className="conteiner-image">
-                    <img loading="lazy" className="image-gallery" src="./assets/img/imagen6.jpg"
+                <div title="Ver mas información" className="card-prop">
+                    <img loading="lazy" className="image-card-prop" src="./assets/img/imagen6.jpg"
                         alt="imagen del frente de una casa en venta" />
                     <div className="conteiner-icons-card">
                         <div className="col1-icons-img">
@@ -124,8 +124,8 @@ export default function Properties() {
                         <i className="bi bi-geo-alt"></i>Avenida 123, En algun lugar
                     </p>
                 </div>
-                <div title="Ver mas información" className="conteiner-image">
-                    <img loading="lazy" className="image-gallery" src="./assets/img/imagen8.jpg"
+                <div title="Ver mas información" className="card-prop">
+                    <img loading="lazy" className="image-card-prop" src="./assets/img/imagen8.jpg"
                         alt="imagen del frente de una casa en venta" />
                     <div className="conteiner-icons-card">
                         <div className="col1-icons-img">
@@ -141,8 +141,8 @@ export default function Properties() {
                         <i className="bi bi-geo-alt"></i>Avenida 123, En algun lugar
                     </p>
                 </div>
-                <div title="Ver mas información" className="conteiner-image">
-                    <img loading="lazy" className="image-gallery" src="./assets/img/imagen9.jpg"
+                <div title="Ver mas información" className="card-prop">
+                    <img loading="lazy" className="image-card-prop" src="./assets/img/imagen9.jpg"
                         alt="imagen del frente de una casa en venta" />
                     <div className="conteiner-icons-card">
                         <div className="col1-icons-img">
