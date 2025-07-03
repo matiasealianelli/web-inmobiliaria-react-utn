@@ -1,11 +1,10 @@
 import "../../styles/properties-fav.css";
-import CardPropertieFav from "../ui/cardPropertieFav/cardPropertie";
+import CardPropertieFav from "../ui/cardPropertie/cardPropertie";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-// iperSlide from "swiper";
 
 export default function PropertiesFav() {
   return (
@@ -21,10 +20,8 @@ export default function PropertiesFav() {
         </p>
         <Swiper
           className="conteiner-cards"
-          spaceBetween={10}
-          // slidesPerView={3}
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
+          modules={[Navigation, Pagination]}
+          pagination={{clickable : true}}
           breakpoints={{
             360: {
               slidesPerView: 1,
@@ -45,7 +42,17 @@ export default function PropertiesFav() {
           }}>
           <SwiperSlide>
             <CardPropertieFav
-              pricePropFav={"1.000.000"}
+              pricePropFav={"1,000,000"}
+              srcImagePropFav={"./assets/img/imagen1.jpg"}
+              m2House={"300"}
+              numberRooms={"5"}
+              saleRentProp={"Casa en Venta"}
+              addressHouse={"Avenida 123, En algun lugar"}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardPropertieFav
+              pricePropFav={"1,000,000"}
               srcImagePropFav={"./assets/img/backgroundHero.jpg"}
               m2House={"300"}
               numberRooms={"5"}
@@ -55,29 +62,16 @@ export default function PropertiesFav() {
           </SwiperSlide>
           <SwiperSlide>
             <CardPropertieFav
-              pricePropFav={"1.000.000"}
-              srcImagePropFav={"./assets/img/backgroundHero.jpg"}
+              pricePropFav={"1,000,000"}
+              srcImagePropFav={"./assets/img/imagen7.jpg"}
               m2House={"300"}
               numberRooms={"5"}
               saleRentProp={"Casa en Venta"}
               addressHouse={"Avenida 123, En algun lugar"}
             />
           </SwiperSlide>
-          <SwiperSlide>
-            <CardPropertieFav
-              pricePropFav={"1.000.000"}
-              srcImagePropFav={"./assets/img/backgroundHero.jpg"}
-              m2House={"300"}
-              numberRooms={"5"}
-              saleRentProp={"Casa en Venta"}
-              addressHouse={"Avenida 123, En algun lugar"}
-            />
-          </SwiperSlide>
-          ...
         </Swiper>
       </section>
     </>
   );
 }
-
-// pricePropFav, srcImagePropFav, m2House, numberRooms, saleRentProp, addressHouse

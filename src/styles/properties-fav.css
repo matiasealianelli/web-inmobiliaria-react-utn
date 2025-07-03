@@ -1,6 +1,9 @@
 .cards{
     width: 80%;
 }
+.swiper, .swiper-wrapper{
+    padding: 2.5rem 0;
+}
 .text-section-cards{
     width: 70%;
     font-size: 1rem;
