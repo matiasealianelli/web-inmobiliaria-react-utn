@@ -1,6 +1,4 @@
-.card-prop,
-.swiper-slide {
-  /* margin: 1rem; */
+.card-prop{
   width: 100%;
   min-width: 13rem;
   display: flex;
@@ -99,7 +97,6 @@
   filter: brightness(0.5);
   transition: all 0.1s ease;
   cursor: pointer;
-  /* scale: 1.03; */
 }
 @media (min-width: 280px) and (max-width: 400px) {
   .image-card-prop {

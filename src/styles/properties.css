@@ -1,7 +1,7 @@
-.gallery {
+.properties{
   width: 80%;
 }
-.title-gallery-section {
+.title-properties-section {
   padding-bottom: 3.5rem;
 }
 .conteiner-all-props {
@@ -13,7 +13,7 @@
   row-gap: 3rem;
 }
 @media (min-width: 280px) and (max-width: 500px) {
-  .gallery {
+  .properties{
     width: 85%;
   }
   .conteiner-all-props {
@@ -22,7 +22,7 @@
 }
 
 @media (min-width: 500px) and (max-width: 768px) {
-  .gallery {
+  .properties{
     width: 85%;
   }
   .conteiner-all-props {
@@ -30,7 +30,7 @@
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  .gallery {
+  .properties{
     width: 85%;
   }
   .conteiner-all-props {
