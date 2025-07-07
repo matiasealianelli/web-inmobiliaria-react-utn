@@ -1,27 +1,27 @@
-.cards{
+.properties-fav{
     width: 80%;
 }
 .swiper, .swiper-wrapper{
     padding: 2.5rem 0;
 }
-.text-section-cards{
+.text-section-properties-fav{
     width: 70%;
     font-size: 1rem;
     margin-top: 1.5rem;
 }
 @media (max-width:768px){
-    .cards{
+    .properties-fav{
         width: 85%;
     }
-    .text-section-cards{
+    .text-section-properties-fav{
         width: 100%;
     }
 }
 @media (min-width:769px) and (max-width:1024px){
-    .cards{
+    .properties-fav{
         width: 85%;
     }
-    .text-section-cards{
+    .text-section-properties-fav{
         width: 100%;
     }
 }
