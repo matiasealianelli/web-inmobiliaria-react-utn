@@ -1,0 +1,140 @@
+{
+  "properties": {
+    "alquiler": [
+      {
+        "id": "ALQ001",
+        "condition": "Alquiler",
+        "source": "./assets/img/backgroundHero.jpg",
+        "type": "Departamento",
+        "address": "Calle Falsa 123, Piso 5, Depto B",
+        "city": "Buenos Aires",
+        "m2": 75,
+        "rooms": 2,
+        "bathrooms": 1,
+        "price": "850,000",
+        "money": "ARS",
+        "service_includes": ["agua", "expensas"],
+        "balcony": true
+      },
+      {
+        "id": "ALQ002",
+        "condition": "Alquiler",
+        "source": "./assets/img/imagen1.jpg",
+        "type": "Casa",
+        "address": "Ruta 3 km 70, Lote 15",
+        "city": "Cañuelas",
+        "m2": 680,
+        "rooms": 3,
+        "bathroom": 2,
+        "price": "150,000",
+        "money": "ARS",
+        "garden": true,
+        "pool": true
+      },
+      {
+        "id": "ALQ003",
+        "condition": "Alquiler",
+        "source": "./assets/img/imagen2.jpg",
+        "type": "Casa",
+        "address": "Ruta 6 km 20, Lote 10",
+        "city": "Cañuelas",
+        "m2": 500,
+        "rooms": 3,
+        "bathroom": 1,
+        "price": "550,000",
+        "money": "ARS",
+        "garden": true,
+        "pool": false
+      },
+      {
+        "id": "ALQ004",
+        "condition": "Alquiler",
+        "source": "./assets/img/imagen3.jpg",
+        "type": "Departamento",
+        "address": "Av Pueyrredon 2400, Recoleta",
+        "city": "Capital Federal",
+        "m2": 180,
+        "rooms": 3,
+        "bathroom": 2,
+        "price": "850,000",
+        "money": "ARS",
+        "garden": true,
+        "pool": false
+      },
+      {
+        "id": "ALQ005",
+        "condition": "Alquiler",
+        "source": "./assets/img/imagen4.jpg",
+        "type": "Departamento",
+        "address": "Entre Rios 300, La Matanza",
+        "city": "San Justo",
+        "m2": 80,
+        "rooms": 3,
+        "bathroom": 1,
+        "price": "650,000",
+        "money": "ARS",
+        "garden": true,
+        "pool": false
+      }
+    ],
+    "venta": [
+      {
+        "id": "VTA001",
+        "condition": "Venta",
+        "source": "./assets/img/imagen5.jpg",
+        "type": "Casa",
+        "address": "Avenida Siempreviva 742",
+        "city": "Springfield",
+        "m2": 250,
+        "rooms": 4,
+        "bathroom": 3,
+        "price": "250,000",
+        "money": "USD",
+        "garaje": true
+      },
+      {
+        "id": "ALQ002",
+        "condition": "Alquiler",
+        "source": "./assets/img/imagen1.jpg",
+        "type": "Casa",
+        "address": "Ruta 3 km 70, Lote 15",
+        "city": "Cañuelas",
+        "m2": 680,
+        "rooms": 3,
+        "bathroom": 2,
+        "price": "150,000",
+        "money": "ARS",
+        "garden": true,
+        "pool": true
+      },
+      {
+        "id": "VTA003",
+        "condition": "Venta",
+        "source": "./assets/img/imagen7.jpg",
+        "type": "Casa",
+        "address": "Calle Falsa 123, Piso 5, Depto B",
+        "city": "Mendoza",
+        "m2": 75,
+        "rooms": 2,
+        "bathroom": 2,
+        "price": "220,000",
+        "money": "USD",
+        "amenities": ["pileta", "gimnasio"]
+      },
+      {
+        "id": "VTA004",
+        "condition": "Venta",
+        "source": "./assets/img/imagen8.jpg",
+        "type": "Lote",
+        "address": "Barrio Privado Ficticio",
+        "city": "Cañuelas",
+        "m2": 140,
+        "rooms": false,
+        "bathroom": 2,
+        "price": "90,000",
+        "money": "USD",
+        "amenities": ["pileta", "gimnasio"]
+      }
+    ]
+  }
+}
