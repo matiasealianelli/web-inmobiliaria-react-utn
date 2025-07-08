@@ -1,13 +1,15 @@
-.conteiner-logo-header {
+.conteiner-logo {
   display: flex;
+  transition: all 0.3s ease;
   align-items: center;
-}
-.logo {
-  margin: 0;
   color: #fff;
 }
-@media (max-width: 768px) {
-  .conteiner-logo-header {
-    margin-right: 1rem;
-  }
+.logo {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0;
+}
+.conteiner-logo:hover{
+  color: #ababab;
+  transition: all 0.3s ease;
 }
