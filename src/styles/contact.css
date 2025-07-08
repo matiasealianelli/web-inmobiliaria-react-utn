@@ -64,17 +64,6 @@ label, input, option{
     border-radius: 20px;
     background-color: rgba(34, 61, 116);
 }
-.col-2{
-    font-size: 0.8rem;
-    width: auto;
-    height: 100%;
-    padding: 1rem 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    color: #434343;
-}
 .btn-form:hover{
     background-color: #2c65c2;
     transition: all 0.3s ease;
@@ -99,9 +88,6 @@ label, input, option{
         width: 100%;
         padding: 0;
     }
-    .col-2{
-    display: none;
-    }
     .conteiner-btns-form{
         gap: 0.5rem;
     }
@@ -125,8 +111,5 @@ label, input, option{
     }
     .conteiner-checks{
         width: 100%;
-    }
-    .col-2{
-        display: flex;
     }
 }
