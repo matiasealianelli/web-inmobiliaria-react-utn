@@ -1,0 +1,17 @@
+/* label, input, option{
+    font-size: 0.9rem;
+    width: max-content;
+    height: min-content;
+} */
+.input-form{
+    /* padding: 0 0.30rem; */
+    padding: 0.3rem 0.5REM;
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    font-size: 0.9rem;
+}
+.conteiner-lbl-input-form{
+        width: 100%;
+}

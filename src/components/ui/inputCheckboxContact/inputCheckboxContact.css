@@ -1,0 +1,7 @@
+.checkbox-contact {
+  font-size: 0.9rem;
+  width: max-content;
+  height: min-content;
+  display: flex;
+  gap: 0.5rem;
+}

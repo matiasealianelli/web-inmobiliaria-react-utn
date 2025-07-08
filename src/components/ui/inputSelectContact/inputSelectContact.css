@@ -1,0 +1,5 @@
+label, input, option{
+    font-size: 0.9rem;
+    width: max-content;
+    height: min-content;
+}

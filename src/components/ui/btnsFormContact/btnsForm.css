@@ -1,0 +1,21 @@
+.conteiner-btns-form {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.btn-form {
+  width: max-content;
+  height: min-content;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(34, 61, 116);
+}
+.btn-form:hover {
+  background-color: #2c65c2;
+  transition: all 0.3s ease;
+}
+@media (max-width: 768px) {
+    .conteiner-btns-form {
+    gap: 0.5rem;
+  }
+}

@@ -1,4 +1,5 @@
 import "../../styles/contact.css";
+import FormContact from "../ui/formContact/formContact";
 import InfoContact from "../ui/infoContact/infoContact";
 export default function Contact() {
   return (
@@ -12,7 +13,8 @@ export default function Contact() {
           para ayudarte!
         </p>
         <div className="conteiner-cols-contact">
-          < InfoContact
+          <FormContact />
+          <InfoContact
             addressOffice={"Avenida 123, En algun lugar"}
             emailContact={"Inmobiliaria@example.com"}
             numberContact={"+54 (011)1234-5678"}
