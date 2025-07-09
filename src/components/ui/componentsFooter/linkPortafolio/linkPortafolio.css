@@ -1,0 +1,10 @@
+.conteiner-link-portafolio {
+  color: #fff;
+}
+.link-portafolio-ma {
+  color: #00ff2f;
+}
+.link-portafolio-ma:hover {
+  color: #50a760;
+  transition: all 0.3s ease;
+}

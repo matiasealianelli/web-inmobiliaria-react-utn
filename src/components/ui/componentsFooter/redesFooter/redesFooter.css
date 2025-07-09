@@ -1,0 +1,8 @@
+.conteiner-redes-footer{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    margin: 1rem 0 0 1rem;
+}

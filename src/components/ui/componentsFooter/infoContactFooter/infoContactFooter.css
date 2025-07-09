@@ -1,0 +1,15 @@
+.conteiner-info-contact-footer {
+  color: #fff;
+  padding: 0;
+}
+.text-info-contact-footer{
+  width: max-content;
+  height: min-content;
+  font-size: 14px;
+}
+@media (min-width: 280px) and (max-width: 630px) {
+
+}
+@media (min-width: 630px) and (max-width: 768px) {
+
+}
