@@ -1,7 +1,7 @@
-import { useState } from "react";
 
-export default function TextareaContact() {
-  const [valueTextarea, setValueTextarea] = useState("");
+
+export default function TextareaContact({valueState, setValue}) {
+
 
   return (
     <>
@@ -11,12 +11,9 @@ export default function TextareaContact() {
           className="form-control input-form"
           name="textarea-msj"
           id="textarea-msj"
-          value={valueTextarea}
-          onChange={(e) => setValueTextarea(e.target.value)}></textarea>
+          value={valueState}
+          onChange={(e) => setValue(e.target.value)}></textarea>
       </label>
-      {
-        valueTextarea !== "" && <p> {valueTextarea} </p>
-      }
     </>
   );
 }

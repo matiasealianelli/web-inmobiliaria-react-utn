@@ -1,9 +1,9 @@
 import "./btnsForm.css";
 
-export default function BtnResetForm() {
+export default function BtnResetForm({onClickEvent}) {
   return (
     <>
-      <button type="reset" id="" className="btn btn-primary btn-form">
+      <button type="button" onClick={onClickEvent} id="" className="btn btn-primary btn-form">
         Resetear
       </button>
     </>
