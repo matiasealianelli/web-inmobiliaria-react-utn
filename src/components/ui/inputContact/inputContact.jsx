@@ -13,6 +13,7 @@ export  function InputContact({ nameLabel, typeInput, valueState, setValue}) {
             id={nameLabel}
             required
             value={valueState}
+            autoComplete={valueState.toString()}
             onChange={(e) => setValue(e.target.value)}
           />
         </label>

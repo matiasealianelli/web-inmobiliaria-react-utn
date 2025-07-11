@@ -4,9 +4,9 @@ export default function BtnContactCTA() {
   return (
     <>
       <a
-        class="btn-link-contact"
-        href="#">
-        <button class="btn-cta-hero">Contactanos</button>
+        className="btn-link-contact"
+        href="#contact">
+        <button className="btn-cta-hero">Contactanos</button>
       </a>
     </>
   );

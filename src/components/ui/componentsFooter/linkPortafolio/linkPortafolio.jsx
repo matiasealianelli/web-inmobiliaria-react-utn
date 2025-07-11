@@ -9,7 +9,7 @@ export default function LinkPortafolio() {
           <a
             href="https://matiasealianelli.github.io/portafolio-web/"
             target="_blank"
-            class="link-portafolio-ma">
+            className="link-portafolio-ma">
             Matias Alianelli
           </a>
         </p>
