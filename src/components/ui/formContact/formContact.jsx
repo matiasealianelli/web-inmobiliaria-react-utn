@@ -30,22 +30,22 @@ export default function FormContact() {
       inputPhone.trim() === "" ||
       inputTextarea.trim() === ""
     ) {
-      alert("Por favor completa todos los campos.");
-      return;
+      return alert("Por favor completa todos los campos.");
+    } else {
+      alert("Tu mensaje fue enviado correctamente");
+      console.log({
+        inputName,
+        inputEmail,
+        inputPhone,
+        inputTextarea,
+        inputChecks,
+      });
+      setInputName("");
+      setInputEmail("");
+      setInputPhone("");
+      setInputTextarea("");
+      setInputChecks([]);
     }
-    alert("Tu mensaje fue enviado correctamente");
-    console.log({
-      inputName,
-      inputEmail,
-      inputPhone,
-      inputTextarea,
-      inputChecks,
-    });
-    setInputName("");
-    setInputEmail("");
-    setInputPhone("");
-    setInputTextarea("");
-    setInputChecks([]);
   };
 
   const handleResetForm = () => {
@@ -96,7 +96,7 @@ export default function FormContact() {
           setValue={setInputTextarea}
         />
         <div className="conteiner-btns-form">
-          <BtnSubmitForm />
+          <BtnSubmitForm onClickEvent={handleSubmitForm} />
           <BtnResetForm onClickEvent={handleResetForm} />
         </div>
       </div>
